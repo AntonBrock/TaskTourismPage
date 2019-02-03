@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 1366px;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header{
+  width: 1366px;
+  height: 665px;
+  display: flex;
+  justify-content: center;
+  background: url(tourism-assets/backgrund1.jpg)
+}
+
+.header_main-tourims {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 82px;
+  margin-bottom: 200px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.header_main-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.header_main_text-span {
+  width: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.header_main_text-span-small {
+  color: #cccbcb;
+  font-size: 18px;
+
+}
+
+.header_main_text-big {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.header_main_text-span-small-second {
+  color: #d5d4ce;
+}
+
+.main {
+  height: 700px;
+  width:  1366px;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: row;
+  margin-left: 251px;
+  margin-top: 66px;
+  align-items: center;
+}
+
+.main-text p {
+  margin-right: 20px;
+}
+
+.main-bitGallery {
+  position: absolute;
+  margin-left: 950px;
+  margin-top: -742px;
+}
+
+.main-photo_all {
+  margin-left: 251px;
+  margin-top: 18px;
+}
+
+.main-text_gallery {
+  font-size: 25px;
+}
+
+.main-text-p {
+  font-size: 14px;
+  color: #b6b6b6;
+}
+
+.statistics {
+  width: 1366px;
+  margin-bottom: 130px;
+}
+
+.statistics_fisrt {
+  height: 326px;
+  background: url(tourism-assets/mainBack.jpg);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.statistics_fisrt-main-text-header p {
+  border: 1px solid #fff;
+  padding: 5px 17px 5px 17px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 600px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.statistics_fisrt-main-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 14px;
+  color: #cbcbca;
+  line-height: 20px;
+}
+
+.statistics_second {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.statistics_second-p {
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-size: 28px;
+}
+
+.statistics_second_text {
+  margin-left: 250px;
+}
+
+.statistics_second_text-header {
+  font-size: 23px;
+}
+
+.statistics_second_text-p {
+  font-size: 15px;
+  color: #333333;
+  margin-bottom: 33px;
+}
+
+.statistics_second-container {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  width: 940px;
+  height: 75px;
+  border-radius: 3px;
+  justify-content: space-around;
+  margin-left: 250px;
+}
+
+.statistics_second-container-static {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.statistics_second-container-static-num {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.footer {
+  height: 1018px;
+  width: 1366px;
+  background: url(tourism-assets/footbackgrund.jpg)
+}
+
+.footer_fisrt {
+  height: 326px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer_fisrt-main-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 14px;
+  color: #cbcbca;
+  line-height: 20px;
+}
+
+.footer_fisrt-main-text-header p {
+  border: 1px solid #fff;
+  padding: 5px 17px 5px 17px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 600px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer-video {
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.footer-video img {
+  -webkit-box-shadow: 0px 7px 21px 0px rgba(50, 50, 50, 1);
+  -moz-box-shadow: 0px 7px 21px 0px rgba(50, 50, 50, 1);
+   box-shadow: 0px 7px 21px 0px rgba(50, 50, 50, 1);
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 40px;
+}
